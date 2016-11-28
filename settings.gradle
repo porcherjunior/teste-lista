@@ -1,0 +1,5 @@
+rootProject.name = 'teste-lista'
+include 'teste-lista-app'
+include 'teste-lista-contract'
+include 'teste-lista-impl'
+

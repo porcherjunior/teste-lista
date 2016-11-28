@@ -1,0 +1,11 @@
+group 'br.com.teste'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":teste-lista-impl")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

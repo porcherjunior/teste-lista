@@ -1,0 +1,11 @@
+group 'br.com.teste'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile project(":teste-lista-contract")
+}
