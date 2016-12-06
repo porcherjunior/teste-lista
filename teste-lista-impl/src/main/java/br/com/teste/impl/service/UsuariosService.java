@@ -2,6 +2,7 @@ package br.com.teste.impl.service;
 
 import br.com.teste.impl.database.UsuariosMapper;
 import br.com.teste.impl.model.UsuariosModel;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -9,6 +10,9 @@ import java.util.List;
 
 @Component
 public class UsuariosService {
+
+    private static Logger logger = Logger.getLogger(UsuariosService.class);
+
     @Autowired
     private UsuariosMapper usuariosMapper;
 
